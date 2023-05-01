@@ -75,7 +75,7 @@ public class Citizen {
     // An Override To The Method toString To Return The Information Of That Citizen
     @Override
     public String toString() {
-        return "\nCitizen: {" +
+        return "Citizen: {" +
                 "Name: " + Name +
                 ", CivilId: " + CivilId +
                 ", Age: " + Age +

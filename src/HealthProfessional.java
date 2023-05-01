@@ -30,6 +30,6 @@ public class HealthProfessional extends Citizen {
                 "Name : " + getName() +
                 ", CivilId : " + getCivilId() +
                 ", Years Of Experience: " + Experience +
-                "}\n";
+                "}";
     }
 }
