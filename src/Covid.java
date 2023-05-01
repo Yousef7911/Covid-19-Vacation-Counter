@@ -69,7 +69,7 @@ public class Covid {
     public static PrintWriter SavingFile (){
         // Try Catch Function Created To Check If The File Exists Or Not
         try {
-            File file = new File(""); // Create A File and Add The Path
+            File file = new File("C:\\Users\\Yousef\\IdeaProjects\\Covid-19-Vacation-Counter\\Vaccinated Persons Counter.txt"); // Create A File and Add The Path
             PrintWriter Writer = new PrintWriter(file); // Create A Print Writer To Write In The File
             Writer.println(Covid.getCitizens()); // Print Citizens List In The File
             Writer.println(Covid.GetFullyVaccinated()); // Print The Number Of Fully Vaccinated Persons In The File
